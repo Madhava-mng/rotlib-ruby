@@ -164,7 +164,8 @@ http://localhost:443
 
 ```ruby
 $ echo foo bar | ./base16.rb
-22666f6f206261725c6e22%                                                $ echo 22666f6f206261725c6e22 | ./base16.rb -d
+22666f6f206261725c6e22
+$ echo 22666f6f206261725c6e22 | ./base16.rb -d
 foo bar
 ```
 
