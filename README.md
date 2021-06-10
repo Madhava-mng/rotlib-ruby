@@ -5,7 +5,7 @@ rot13,rot47,url,base16... ruby bin files for encoding and decoding
 * ruby
 
 **example for rot13:**
-'''ruby
+```ruby
 $ # Syntax:./rot13.rb [-h][-r=][-l] [file]
 
 $ echo hellow WORLD | ./rot13.rb
@@ -43,11 +43,11 @@ $ echo uryybj | ./rot13 -l
 23 > rovvyg
 24 > spwwzh
 25 > tqxxai
-'''
+```
 
 **example for rot47:**
 
-'''ruby
+```ruby
 $ # Syntax:./rot47.rb [-h][-r=][-l] [file]
 
 $ echo foo bar | ./rot47.rb
@@ -149,7 +149,7 @@ $ echo hqq dct | ./rot47.rb -l
 91 > enn a`q
 92 > foo bar
 93 > gpp cbs
-'''
+```
 
 **example for url-encoding:**
 
