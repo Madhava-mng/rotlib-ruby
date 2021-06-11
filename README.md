@@ -7,7 +7,7 @@ rot13,rot47,url,base16... ruby bin files for encoding and decoding
 **installation:**
 
 ```ruby
-wget https://github.com/Madhava-mng/rotlib-ruby/blob/main/rotlib-0.1.0.gem
+wget https://github.com/Madhava-mng/rotlib-ruby/blob/main/rotlib-0.1.0.gem?raw=true
 gem install rotlib-0.1.0.gem
 ```
 
