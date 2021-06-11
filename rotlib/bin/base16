@@ -6,10 +6,10 @@ class Hex
     @data = data
   end
   def toHex
-    $stdout.print data.dump.bytes.map {|e| e.to_s(16)}.join
+    $stdout.print @data.dump.bytes.map {|e| e.to_s(16)}.join
   end
   def fromHex
-    @data.split.pack('H*')
+    $stdout.print @data.downcase.split.pack('H*')
   end
 end
 
@@ -53,7 +53,7 @@ def main
   if encode
     hex.toHex
   else
-    puts hex.fromHex.undump
+    hex.fromHex
   end
 end
 
