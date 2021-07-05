@@ -1,6 +1,13 @@
 # rotlib-ruby
 rot13,rot47,url,base16... ruby bin files for encoding and decoding
 
+![](https://img.shields.io/gem/v/rotlib)
+![](https://img.shields.io/gem/dt/rotlib)
+![](https://img.shields.io/gem/rt/rotlib)
+![](https://img.shields.io/gem/dtv/rotlib)
+![](https://img.shields.io/github/license/Madhava-mng/rotlib-ruby)
+
+
 **require:**
 * ruby
 
